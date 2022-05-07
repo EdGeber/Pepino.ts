@@ -7,6 +7,6 @@ defineSupportCode(({ Given, When, Then }) => {
 	Given(
 	/^There is no registered user in the forum with username "Fred", be it admin or non-admin$/,
 	async () => {
-		browser.get('https://angularjs.org');
+		await browser.get('https://angularjs.org');
 	});
 })
